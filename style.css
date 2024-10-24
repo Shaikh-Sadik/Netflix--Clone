@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Martel Sans", serif;
+}
+
+body {
+    background-color: black;
+}
+
+/*  Here main Section start */
+
+.main {
+    background-image: url("assets/images/background_img.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+/* here Nav Started */
+
+nav {
+    /* background-color: red; */
+    max-width: 80vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+nav img {
+    width: 112px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+}
+
+/* here hero section */
+
+.hero {
+    height: calc(100% - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", serif;
+    padding: 0px 30px;
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(4) {
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* here separation line  */
+.separation {
+    height: 7px;
+    background-color: #342e2e;
+}
+
+/* here container of english & sing in button  */
+.nav-btn {
+    display: flex;
+    gap: 14px;
+}
+
+/* here buttons english */
+.btn1 {
+    padding: 3px 12px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.431);
+    cursor: pointer;
+}
+
+/* here sing in  */
+.btn2 {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 7px;
+    border: 2px solid rgba(255, 255, 255, 0.431);
+}
+
+/* here button container  of input type& get started*/
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* here get started button */
+
+.btn3 {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 2px solid rgba(255, 255, 255, 0.179);
+}
+
+/* here input type start  */
+
+.main input {
+    /* padding: 13px 66px; */
+    padding: 11px 130px 12px 5px;
+    font-weight: 400;
+    color: white;
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 2px solid rgba(245, 213, 213, 0.5);
+}
+
+.box2 {
+    height: 17vh;
+    width: 100%;
+    /* background-color: red; */
+    color: white;
+    font-size: 24px;
+    /* padding: 50px 100px;
+    padding-bottom: 10px;*/
+    margin: auto;
+    display: flex;
+}
+
+.box2>:nth-child(1) {
+    /* margin: 0px 0px 0px 0px; */
+    font-weight: 500;
+    font-size: 24px;
+    padding: 55px 200px;
+    /* background-color: blue; */
+}
+
+.sec1 {
+    display: flex;
+    gap: 14px;
+    padding: 0px 200px;
+    padding-bottom: 50px;
+}
+
+.sec1-btn1 {
+    padding: 3px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.431);
+    cursor: pointer;
+}
+
+.sec1-btn2 {
+    padding: 3px 20px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.431);
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: cen;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* .number {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 50%;
+} */
+/* 
+.recently-added {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+} */
+
+.sec3 {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 55px 200px;
+    font-family: "Martel Sans", serif;
+}
+
+.container3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(52, 46, 121, 0.641);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    gap: 25px;
+    padding: 3px 10px;
+}
+
+.card1 :nth-child(1) {
+
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.card1 :nth-child(2) {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.faq-container{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+.faq {
+    height: 50px;
+    width: 70vw;
+    margin: auto;
+    background-color: rgba(24, 12, 104, 0.415);
+    color: white;
+    padding-top: 25px;
+}
+
+.faq :nth-child(1) {
+    font-size: 20px;
+    /* color: white;
+    font-weight: 700;
+    font-size: 24px; */
+    padding-left: 14px;
+    font-family: "Martel Sans", serif;
+    
+}
