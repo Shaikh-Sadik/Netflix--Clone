@@ -171,7 +171,7 @@ nav button {
   display: flex;
 }
 
-.box2> span {
+.box2>span {
   font-weight: 500;
   font-size: 24px;
   /* padding: 55px 200px; */
@@ -332,7 +332,7 @@ nav button {
   color: white;
 }
 
-.end> span {
+.end>span {
   font-weight: 400;
   font-size: 16px;
   margin-left: 190px;
@@ -371,84 +371,105 @@ ol {
   bottom: 50px;
   color: white;
 }
+
+
 /* -------------Media Query-----------*/
+
 @media only screen and (max-width:1200px) {
+
+  body {
+    background-color: black;
+    overflow-x: hidden;
+  }
+
   .hero> :first-child {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
   }
-  
+
   .hero> :nth-child(2) {
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
   }
-  
+
   .hero> :nth-child(3) {
     font-weight: 400;
     font-size: 16px;
     line-height: 40px;
   }
-  
+
   .hero> :nth-child(4) {
     font-weight: 400;
     font-size: 16px;
     line-height: 40px;
   }
+
   .hero-button {
     flex-direction: column;
   }
+
   .box2 {
     height: 12vh;
   }
-  .box2> span {
+
+  .box2>span {
     font-size: 18px;
     top: 50px;
     left: 50px;
   }
+
   .sec1 {
     left: 50px;
   }
-  .container{
+
+  .container {
     flex-wrap: wrap;
   }
-  
-  .sec3{
+
+  .sec3 {
     font-size: 18px;
     padding: 50px 50px;
   }
-  .container3{
+
+  .container3 {
     font-size: 20px;
     flex-direction: column;
   }
-.hero-button-btn{
-  flex-direction: column;
-  position: relative;
-  left: 20px;
-  align-items: flex-start;
-}
+
+  .hero-button-btn {
+    flex-direction: column;
+    position: relative;
+    left: 20px;
+    align-items: flex-start;
+  }
+
   .hero-button-btn> :nth-child(1) {
     padding: 11px 160px 12px 5px;
   }
+
   .end {
-   height: 510px;
+    height: 510px;
   }
-  .end> span {
-   margin-left: 40px;
-  } 
+
+  .end>span {
+    margin-left: 40px;
+  }
+
   ol {
     display: block;
     height: 140px;
     width: 350px;
     padding-left: 8px;
   }
+
   .end-sec {
     left: 40px;
   }
 
-.end-last{
-  left: 40px;
-}
+  .end-last {
+    left: 40px;
+  }
 
 }
