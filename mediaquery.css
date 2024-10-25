@@ -1,0 +1,217 @@
+/* Main styling remains the same, only media queries added for responsiveness */
+
+/* Base styles */
+/* @import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+
+  .hero> :first-child,
+  .hero> :nth-child(2) {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .hero> :nth-child(4) {
+    font-size: 14px;
+  }
+
+  .main input {
+    padding: 11px 30px 12px 5px;
+    font-size: 12px;
+  }
+
+  nav {
+    max-width: 90vw;
+  }
+
+  nav img {
+    width: 80px;
+  }
+
+  .container,
+  .container3 {
+    flex-direction: column;
+  }
+
+  .box2,
+  .sec3 {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  .btn3 {
+    font-size: 16px;
+    padding: 3px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero> :first-child,
+  .hero> :nth-child(2) {
+    font-size: 28px;
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 16px;
+  }
+
+  .hero-button,
+  .hero-button-btn {
+    flex-direction: column;
+  }
+
+  .main input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  nav img {
+    width: 70px;
+  }
+
+  .sec1,
+  .sec3 {
+    padding: 10px;
+  }
+
+  ol {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .faq {
+    width: 90vw;
+  }
+
+  .card,
+  .card1 {
+    width: 90%;
+    height: auto;
+  }
+}
+
+
+/*-----------------Media Queries for Responsive Design------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+  .hero> :first-child,
+  .hero> :nth-child(2) {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 18px;
+  }
+
+  .hero> :nth-child(4) {
+    font-size: 14px;
+  }
+
+  .main input {
+    padding: 11px 30px;
+    font-size: 12px;
+    width: calc(100% - 60px);
+    /* Adjust width */
+  }
+
+  nav {
+    max-width: 90vw;
+  }
+
+  nav img {
+    width: 80px;
+  }
+
+  .container,
+  .container3 {
+    flex-direction: column;
+    align-items: center;
+    /* Center items */
+  }
+
+  .box2,
+  .sec3 {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    /* Center text */
+  }
+
+  .btn3 {
+    font-size: 16px;
+    padding: 3px 12px;
+  }
+
+  .sec1 {
+    flex-direction: column;
+    /* Stack buttons */
+    align-items: center;
+    /* Center buttons */
+  }
+}
+
+@media (max-width: 480px) {
+
+  .hero> :first-child,
+  .hero> :nth-child(2) {
+    font-size: 28px;
+  }
+
+  .hero> :nth-child(3) {
+    font-size: 16px;
+  }
+
+  .hero-button,
+  .hero-button-btn {
+    flex-direction: column;
+    width: 100%;
+    /* Full width for buttons */
+  }
+
+  .main input {
+    width: 100%;
+    /* Full width */
+    padding: 10px;
+  }
+
+  nav img {
+    width: 70px;
+  }
+
+  .sec1,
+  .sec3 {
+    padding: 10px;
+    text-align: center;
+    /* Center text */
+  }
+
+  ol {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    /* Center list items */
+  }
+
+  .faq {
+    width: 90vw;
+  }
+
+  .card,
+  .card1 {
+    width: 90%;
+    height: auto;
+    /* Maintain aspect ratio */
+    margin: 10px 0;
+    /* Add margin between cards */
+  }
+}
