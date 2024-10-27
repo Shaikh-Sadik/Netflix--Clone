@@ -102,6 +102,8 @@ nav button {
 .separation {
   height: 7px;
   background-color: #342e2e;
+  width: 100%;
+  margin: auto;
 }
 
 /* here container of english & sing in button  */
